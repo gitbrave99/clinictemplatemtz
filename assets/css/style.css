@@ -1,0 +1,155 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+  }
+
+  /*typografia */
+  
+  .display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  
+  
+  #imgMainhome{
+      background-image: url("https://gacetadental.com/wp-content/uploads/2019/05/clinica-dental-madrid.jpg");
+      background-repeat: no-repeat;
+      position: relative;
+      width: 100%;
+      height: 400px;
+  }
+
+  /* rede sociales  */
+/*-------footer-----------*/
+#socialnetwordd .redes-sociales {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+#socialnetwordd .redes-sociales a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  margin:10px;
+  text-align: center;
+  border-radius: 100px;
+  transition: .3s ease all;
+}
+
+#socialnetwordd .redes-sociales .twitter {background: #1da1f2;}
+#socialnetwordd .redes-sociales .facebook {background: #3b5998;}
+#socialnetwordd .redes-sociales .instagram {background: #c13584;}
+#socialnetwordd .redes-sociales .whatsapp{background: green }
+
+#socialnetwordd .redes-sociales a i {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#socialnetwordd .contenedor-icono:hover a {
+  animation: icono .5s ease;
+}
+
+@keyframes icono {
+  from {
+    transform: rotate3d(0,0,0,0);
+  }
+  to {
+    transform: rotate3d(0,1,0, 360deg);
+  }
+}
+
+
+/* imgcardservices */
+.imgCardServices{
+  height: 250px;
+}
+
+/* butto top  */
+.go-top-container{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+.go-top-button{
+  width: orem;
+  height: orem;
+  background: #2071b2;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.go-top-button i{
+  position: absolute;
+  font-size: 1.7rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  transition: .2s;
+}
+.show{
+  z-index: 10;
+}
+.show .go-top-button{
+  animation: popup .3s ease-in-out;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: 11;
+}
+
+
+
+.colrEyeOptics{
+  color: #039be5;
+}
+
+
+
+
